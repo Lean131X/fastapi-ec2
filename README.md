@@ -18,21 +18,7 @@ La API esta corriendo en:
 Un usuario puede tener varias reservas (relacion 1 a N). Al crear una reserva se valida
 que el usuario exista, si no existe devuelve 404.
  
-## Endpoints
- 
-| Metodo | Ruta | Descripcion |
-|--------|------|-------------|
-| GET | `/` | mensaje de estado |
-| POST | `/usuarios/` | crear usuario |
-| GET | `/usuarios/` | listar usuarios |
-| GET | `/usuarios/{id}` | obtener un usuario |
-| PATCH | `/usuarios/{id}` | actualizar usuario |
-| DELETE | `/usuarios/{id}` | eliminar usuario |
-| POST | `/reservas/` | crear reserva |
-| GET | `/reservas/` | listar reservas |
-| GET | `/reservas/{id}` | obtener una reserva |
-| PATCH | `/reservas/{id}` | actualizar reserva |
-| DELETE | `/reservas/{id}` | eliminar reserva |
+
  
 ### Ejemplo de body para crear un usuario
  
